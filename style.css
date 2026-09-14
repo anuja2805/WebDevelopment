@@ -2,9 +2,9 @@ body{
     background-color: #ffe2f0;
 }
 
- div{
-            background-color: #ffbedc;
-        }
+div{
+    background-color: #ffbedc;
+}
 
 h2{
     text-align: center;
@@ -13,24 +13,36 @@ h2{
 h3{
     text-align: center;background-color: #f45ca2;
 }
+
 ul{
     list-style-type: none;
-    margin: 0;
+    margin : 0;
     padding: 0;
     overflow: hidden;
     background-color: #f45ca2;
 }
+
 ul li {
         float: left;
-    }
+}
 
 ul li a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
+    padding-left: 72.5px;
+    padding-right: 72.5px;
     text-decoration: none;
-    }
+}
+
 ul li a:hover{
             background-color: #fba1ca;
-        }
+            color: black;
+
+}
+
+.education-header{
+    display: flex;
+    justify-content: space-between;
+}
